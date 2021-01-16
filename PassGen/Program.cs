@@ -7,6 +7,9 @@ namespace PassGen
         static void Main()
         {
             Console.Title = "Генератор паролей";
+
+            Console.Write("Количество паролей");
+            byte passwords = Convert.ToByte(Console.ReadLine());
         }
     }
 }
